@@ -1,0 +1,116 @@
+/* Global CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+body {
+    background: url(../Images/imgs.jpg) no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+a:hover {
+    color: #b7aa60;
+    cursor: pointer;
+}
+
+/* navbar CSS */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100px;
+}
+
+.menu {
+    margin: 0 auto;
+    padding-left: 65%;
+    padding-top: 40px;
+}
+
+.menu li {
+    display: inline;
+    background-color: #042;
+    padding: 5px 20px;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+.menu li:hover {
+    background-color: #068;
+}
+
+/* SignIn Form CSS*/
+.container { position: relative; }
+.login-box {
+	position: absolute;
+    width: 350px;
+    height: 420px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0);
+    left: 50%;
+    top: 70px;
+    transform: translateX(-50%);
+}
+.user {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: calc(-100px/2);
+	left: calc(50% - 50px);
+}
+
+h2 {
+    margin: 0;
+	padding: 0 0 20px;
+	color: #000;
+	text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+.login-box label {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #fff;
+    display: block;
+    margin-top: 10px;
+}
+
+.login-box #email, .login-box #password {
+    border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+    width: 100%;
+}
+::placeholder { color: rgba(255, 255, 255, 0.5); }
+
+.login-box input[type="submit"] {
+    border: none;
+	outline: none;
+	height: 40px;
+	color: #1;
+	font-size: 16px;
+	background:#042;
+	cursor: pointer;
+	border-radius: 20px;
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+    overflow: 0;
+}
+
+
+
+
+
+
